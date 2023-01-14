@@ -86,6 +86,9 @@ input[type="radio"]:checked::after {
 }
 .footer {
   color: white;
+  border-top: 2px solid white;
+  padding: 20px 0;
+  margin-top: 12px;
 }
 .name {
   font-family: "WindSong", cursive;
@@ -96,7 +99,7 @@ input[type="radio"]:checked::after {
   cursor: pointer;
 }
 .social-media {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 @media (max-width: 568px) {
   #winc-movielist {
